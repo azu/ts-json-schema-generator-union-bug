@@ -19,7 +19,7 @@
         {
           "additionalProperties": false,
           "properties": {
-            "newFolderName": {
+            "folderName": {
               "type": "string"
             },
             "template": {
@@ -28,7 +28,7 @@
           },
           "required": [
             "template",
-            "newFolderName"
+            "folderName"
           ],
           "type": "object"
         }

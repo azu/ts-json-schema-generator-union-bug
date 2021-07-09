@@ -4,5 +4,5 @@ export type RequestBody =
   }
   | {
     template: string;
-    newFolderName: string;
+    folderName: string;
   };
